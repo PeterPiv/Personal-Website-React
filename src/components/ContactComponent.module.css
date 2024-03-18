@@ -23,7 +23,11 @@
   transition: transform 0.3s, font-weight 0.3s;
 }
 
+/* on hover there is a small visual "bug". not really a bug more of an annoyance. when a link is hovered, it moves down a bit, but not only does the text move down but also the clickable area, and if you hover on the edge of that area, the engine freaks out and it start, for the lack of a better word, vibrating. 🙁
+ should look into a better way that does not allow this to happen  */
+
 .contacts a:hover {
   font-weight: 900;
   transform: translateY(25%);
+  background-color: green;
 }
