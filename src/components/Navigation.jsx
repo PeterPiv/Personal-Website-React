@@ -6,7 +6,7 @@ function Navigation() {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <NavLink to="/">Homepage</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
           <NavLink to="/projects">Projects</NavLink>

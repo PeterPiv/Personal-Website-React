@@ -7,15 +7,18 @@
 .nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: 0;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 
 .nav ul a {
+  font-size: 1.2rem;
+  color: var(--primary-color);
   text-decoration: none;
+  font-weight: 600;
 }
 
-:global(.active) {
-  background-color: green;
+.nav a:global(.active) {
+  position: relative;
 }

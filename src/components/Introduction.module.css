@@ -1,0 +1,9 @@
+.introduction {
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  text-align: justify;
+}
+.name {
+  color: #ffffff;
+}
