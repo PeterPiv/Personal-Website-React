@@ -3,9 +3,11 @@ import styles from "./Projects.module.css";
 
 function Projects() {
   return (
-    <div>
+    <>
       <Navigation />
-    </div>
+      <p>This is the PROJECTS PAGE</p>
+      <p>this is where all the projects will go</p>
+    </>
   );
 }
 

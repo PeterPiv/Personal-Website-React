@@ -3,3 +3,16 @@
   font-family: "Inter";
   background-color: #f5f5dc;
 }
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 1rem;
+}
+
+.nav ul li {
+  text-decoration: none;
+  color: white;
+}
