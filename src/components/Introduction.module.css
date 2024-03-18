@@ -1,9 +1,19 @@
 .introduction {
-  margin: auto;
-  display: grid;
-  justify-content: center;
-  text-align: justify;
+  padding: 1rem;
 }
+
+.text {
+  text-align: center;
+  font-size: 1.35rem;
+  padding: 1rem;
+  color: #f5f5dc;
+}
+
 .name {
-  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.welcomeText {
+  margin: 2rem 0 0;
 }
