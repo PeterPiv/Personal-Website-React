@@ -1,10 +1,29 @@
 .contactContainer {
-  background-color: rgb(125, 125, 74);
   padding: 1rem;
+  background-color: yellowgreen;
+  text-align: center;
 }
 
 .contacts {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: center;
   align-items: center;
+  padding: 1rem;
+}
+
+.contacts a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s, font-weight 0.3s;
+}
+
+.contacts a:hover {
+  font-weight: 900;
+  transform: translateY(25%);
 }
