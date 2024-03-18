@@ -1,6 +1,6 @@
 .image {
-  background-color: yellow;
   max-width: 10rem;
   border-radius: 100%;
   margin: auto;
+  margin: 4dvh auto;
 }
