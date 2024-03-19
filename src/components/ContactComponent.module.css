@@ -1,6 +1,5 @@
 .contactContainer {
   padding: 1rem;
-  background-color: yellowgreen;
   text-align: center;
 }
 
@@ -9,7 +8,7 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 0.4rem;
 }
 
 .contacts a {
@@ -21,13 +20,26 @@
   text-decoration: none;
   display: inline-block;
   transition: transform 0.3s, font-weight 0.3s;
+  padding: 0.4rem;
 }
 
-/* on hover there is a small visual "bug". not really a bug more of an annoyance. when a link is hovered, it moves down a bit, but not only does the text move down but also the clickable area, and if you hover on the edge of that area, the engine freaks out and it start, for the lack of a better word, vibrating. 🙁
- should look into a better way that does not allow this to happen  */
-
 .contacts a:hover {
-  font-weight: 900;
-  transform: translateY(25%);
-  background-color: green;
+  font-weight: 700;
+  animation: 1.2s infinite alternate linkHoverAnimation;
+  z-index: 999;
+}
+
+@keyframes linkHoverAnimation {
+  from {
+    rotate: 0deg;
+    scale: 1;
+  }
+  50% {
+    rotate: 6deg;
+    scale: 1.3;
+  }
+  to {
+    rotate: -6deg;
+    scale: 1;
+  }
 }
