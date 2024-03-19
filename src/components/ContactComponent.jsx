@@ -6,9 +6,6 @@ function ContactComponent() {
       <div>You can reach me here</div>
       <div className={styles.contacts}>
         <p>
-          <a href="mailto:pivonpeter@gmail.com">Email</a>
-        </p>
-        <p>
           <a href="https://hu.linkedin.com/in/peter-pivon-9036a8276">LinkedIn</a>
         </p>
         <p>
@@ -17,6 +14,9 @@ function ContactComponent() {
       </div>
       <div>
         Or send me a message <strong>directly</strong>
+        <p className={styles.email}>
+          <a href="mailto:pivonpeter@gmail.com">Email</a>
+        </p>
       </div>
     </div>
   );
