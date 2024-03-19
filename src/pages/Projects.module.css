@@ -1,0 +1,8 @@
+.grid {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr;
+  background-color: yellowgreen;
+  gap: 1rem;
+  border: 5px solid black;
+}
