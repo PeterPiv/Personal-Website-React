@@ -1,7 +1,7 @@
 .nav {
   height: 10dvh;
   font-family: "Inter";
-  background-color: #f5f5dc;
+  background-color: var(--secondary-color);
 }
 
 .nav ul {

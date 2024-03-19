@@ -1,4 +1,5 @@
 .skillGrid {
   display: grid;
   grid-template-rows: 1fr;
+  text-align: center;
 }
