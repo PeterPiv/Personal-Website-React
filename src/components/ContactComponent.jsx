@@ -6,10 +6,14 @@ function ContactComponent() {
       <div>You can reach me here</div>
       <div className={styles.contacts}>
         <p>
-          <a href="https://hu.linkedin.com/in/peter-pivon-9036a8276">LinkedIn</a>
+          <a href="https://hu.linkedin.com/in/peter-pivon-9036a8276" target="_blank">
+            LinkedIn
+          </a>
         </p>
         <p>
-          <a href="https://github.com/PeterPiv">GitHub</a>
+          <a href="https://github.com/PeterPiv" target="_blank">
+            GitHub
+          </a>
         </p>
       </div>
       <div>

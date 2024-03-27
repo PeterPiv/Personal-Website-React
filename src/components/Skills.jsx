@@ -6,7 +6,7 @@ const skills = ["HTML", "CSS", "JavaScript", "SCSS", "Git", "GitHub", "Linux", "
 function Skills() {
   return (
     <>
-      <h3>Skills</h3>
+      <h3 className={styles.skillsText}>Skills</h3>
       <div className={styles.skillGrid}>
         {skills.map((skill, i) => (
           <Skill skillName={skill} key={i} />

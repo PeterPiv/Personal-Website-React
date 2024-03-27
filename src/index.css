@@ -75,7 +75,3 @@ h6 {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
-
-body {
-  background-color: var(--primary-color);
-}
