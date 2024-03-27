@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26"/>
-<path d="M26 5H16V29.5L24 27L26 5Z" fill="#F16529"/>
-<path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="white"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px" viewBox="0 0 600 600" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(89.411765%,30.196078%,14.901961%);fill-opacity:1;" d="M 112.5 525 L 75 56.25 L 525 56.25 L 487.5 525 L 300 581.25 Z M 112.5 525 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(94.509804%,39.607843%,16.078431%);fill-opacity:1;" d="M 487.5 93.75 L 300 93.75 L 300 553.125 L 450 506.25 Z M 487.5 93.75 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 178.125 328.125 L 159.375 150 L 450 150 L 440.625 206.25 L 215.625 206.25 L 225 271.875 L 431.25 271.875 L 412.5 450 L 300 487.5 L 187.5 450 L 178.125 356.25 L 234.375 356.25 L 243.75 403.125 L 300 421.875 L 356.25 403.125 L 365.625 328.125 Z M 178.125 328.125 "/>
+</g>
 </svg>

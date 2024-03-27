@@ -1,16 +1,18 @@
 import Skill from "./Skill";
 import styles from "./Skills.module.css";
 
-const skills = ["HTML", "CSS", "JavaScript", "SCSS", "Git", "Photshop", "Ubuntu"];
+const skills = ["HTML", "CSS", "JavaScript", "SCSS", "Git", "GitHub", "Linux", "MS Word", "MS Excel"];
 
 function Skills() {
   return (
-    <div className={styles.skillGrid}>
-      Skills
-      {skills.map((skill, i) => (
-        <Skill skillName={skill} key={i} />
-      ))}
-    </div>
+    <>
+      <h3>Skills</h3>
+      <div className={styles.skillGrid}>
+        {skills.map((skill, i) => (
+          <Skill skillName={skill} key={i} />
+        ))}
+      </div>
+    </>
   );
 }
 

@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css";
 
 function Footer() {
-  return <footer>FOOTER</footer>;
+  return <footer>Site was last updated:</footer>;
 }
 
 export default Footer;
