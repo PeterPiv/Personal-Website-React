@@ -15,7 +15,7 @@ function Navigation() {
           <NavLink to="/contact">Contact</NavLink>
         </li>
         <li>
-          <img src="../public/images/cogwheel.svg" alt="" />
+          <img src="../public/svg/cogwheel.svg" alt="" />
         </li>
       </ul>
     </nav>
