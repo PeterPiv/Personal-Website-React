@@ -29,6 +29,8 @@ li img {
   cursor: not-allowed;
 }
 
+/* HERE BE MEDIA QUERIES */
+
 @media screen and (max-width: 340px) {
   li img {
     max-width: 30px;
