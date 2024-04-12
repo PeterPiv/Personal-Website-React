@@ -1,7 +1,8 @@
 .contactContainer {
   padding: 1rem;
   text-align: center;
-  margin: 2rem 0 0;
+  position: relative;
+  transform: translateY(80%);
   color: var(--secondary-color);
 }
 
@@ -11,6 +12,7 @@
   padding: 0.4rem;
   align-items: center;
   justify-content: center;
+  margin: 1rem 0 0;
 }
 
 .contacts a {
@@ -18,7 +20,6 @@
   font-size: 1.2rem;
   margin-bottom: 2rem;
   padding: 0.4rem;
-  text-decoration: none;
   text-decoration: none;
   transition: all 0.3s;
   transition: transform 0.3s, font-weight 0.3s;
@@ -41,14 +42,26 @@
   transform: scale(1);
 }
 
+.email {
+  margin: 1rem 0;
+}
+
+.email > div {
+  margin: 1rem;
+}
+
 .email a {
   text-decoration: none;
-  position: absolute;
-  top: 35%;
-  left: 50%;
+  position: relative;
   transform: translate(-50%, -50%);
   cursor: pointer;
   font-size: 1.2rem;
+  transition: all 0.3s;
+  transition: transform 0.3s, font-weight 0.3s;
+}
+
+.email a:hover {
+  font-weight: 700;
 }
 
 /* Email underline animation */

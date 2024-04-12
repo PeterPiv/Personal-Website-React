@@ -4,13 +4,13 @@
 
 .text {
   text-align: center;
-  font-size: 1.35rem;
-  padding: 1rem;
+  font-size: 1.15rem;
+  padding: 0.5rem;
   color: var(--secondary-color);
 }
 
 .name {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 

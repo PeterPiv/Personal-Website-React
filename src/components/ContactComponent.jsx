@@ -16,11 +16,11 @@ function ContactComponent() {
           </a>
         </p>
       </div>
-      <div>
-        Or send me a message <strong>directly</strong>
-        <p className={styles.email}>
+      <div className={styles.email}>
+        <span>Or send me a message directly</span>
+        <div>
           <a href="mailto:pivonpeter@gmail.com">Email</a>
-        </p>
+        </div>
       </div>
     </div>
   );
