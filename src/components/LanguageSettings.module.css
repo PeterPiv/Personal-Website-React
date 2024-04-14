@@ -1,0 +1,23 @@
+.settingsMenu {
+  position: absolute;
+  background-color: var(--secondary-color);
+  right: 0;
+  top: 10%;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 3px 3px 2px 3px #0a111b;
+  padding: 1rem;
+}
+
+.settingsMenu p {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.languages p {
+  margin: 1rem 0;
+  cursor: pointer;
+}
