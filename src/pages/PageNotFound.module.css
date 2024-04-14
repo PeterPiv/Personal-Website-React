@@ -1,0 +1,16 @@
+.container {
+  padding: 2rem;
+}
+.pageNotFoundText {
+  text-align: center;
+}
+
+.backToHome {
+  margin-top: 25%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.backToHome > div {
+  margin-top: 1rem;
+}
